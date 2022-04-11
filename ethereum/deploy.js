@@ -2,9 +2,9 @@ const HDWalletProvider = require("@truffle/hdwallet-provider");
 const Web3 = require("web3");
 const compiledFactory = require("./build/CampaignFactory.json");
 const provider = new HDWalletProvider(
-  "observe radio century once teach enrich youth letter mom gather lady unknown",
+  "12 phrase mneomic",
   // remember to change this to your own phrase!
-  "https://rinkeby.infura.io/v3/d94a28bcfd1147c1947d5175b4ae14ee"
+  "rinkeby infura endpoint"
   // remember to change this to your own endpoint!
 );
 const web3 = new Web3(provider);
